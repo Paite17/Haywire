@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &103834351317919202
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1021544607945167630}
+  - component: {fileID: 1160067958746854141}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1021544607945167630
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103834351317919202}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 491.21774, y: 474.85144, z: 3.8247752}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1160067958746854141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 103834351317919202}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 35943c5b8c6ef46438277dff539b67a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: cancel
+    clip: {fileID: 8300000, guid: fcbe9a366dcb10b4182356f4caa75c99, type: 3}
+    loop: 0
+    volume: 0.745
+    pitch: 1
+    source: {fileID: 0}
+  - name: confirm
+    clip: {fileID: 8300000, guid: 15f12aa23d5231449abf461776c95a71, type: 3}
+    loop: 0
+    volume: 0.745
+    pitch: 1
+    source: {fileID: 0}
+  - name: crirtical
+    clip: {fileID: 8300000, guid: 21b45f3b564821a418f963b9aa864bde, type: 3}
+    loop: 0
+    volume: 0.745
+    pitch: 1
+    source: {fileID: 0}
+  - name: down
+    clip: {fileID: 8300000, guid: 34fd921825409d342b724199c0d2c1fc, type: 3}
+    loop: 0
+    volume: 0.291
+    pitch: 1
+    source: {fileID: 0}
+  - name: left
+    clip: {fileID: 8300000, guid: 9dc3b0fb063b31f46b3c08cec48a69b5, type: 3}
+    loop: 0
+    volume: 0.291
+    pitch: 1
+    source: {fileID: 0}
+  - name: right
+    clip: {fileID: 8300000, guid: 1562899df9605b0478aa148d7b96c8cf, type: 3}
+    loop: 0
+    volume: 0.291
+    pitch: 1
+    source: {fileID: 0}
+  - name: up
+    clip: {fileID: 8300000, guid: 32032165a76dc8943a2784f837b10fba, type: 3}
+    loop: 0
+    volume: 0.291
+    pitch: 1
+    source: {fileID: 0}
+  - name: perfect
+    clip: {fileID: 8300000, guid: 829f4818e380c78408964dc1f50d2a12, type: 3}
+    loop: 0
+    volume: 0.745
+    pitch: 1
+    source: {fileID: 0}
+  - name: sDown
+    clip: {fileID: 8300000, guid: 8990f692437563841b9e781d2cd923ab, type: 3}
+    loop: 0
+    volume: 0.745
+    pitch: 1
+    source: {fileID: 0}
+  - name: sLeft
+    clip: {fileID: 8300000, guid: b103ff848a8626c4c9d1fc9e52081969, type: 3}
+    loop: 0
+    volume: 0.745
+    pitch: 1
+    source: {fileID: 0}
+  - name: sRight
+    clip: {fileID: 8300000, guid: 1a9f22bb749037f469ba416c5d261b6c, type: 3}
+    loop: 0
+    volume: 0.745
+    pitch: 1
+    source: {fileID: 0}
+  - name: sUp
+    clip: {fileID: 8300000, guid: 780a5cf1857ac834395c2b2828d637c7, type: 3}
+    loop: 0
+    volume: 0.745
+    pitch: 1
+    source: {fileID: 0}
+  - name: miss
+    clip: {fileID: 8300000, guid: f84e21391b8db8549b1055f941c8749b, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: enemy_hit
+    clip: {fileID: 8300000, guid: 6ece46b3ce7c7094ab77cc79fcecdfbd, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: encounter
+    clip: {fileID: 8300000, guid: 18aa5488a72d63a4fbddedea792faf22, type: 3}
+    loop: 0
+    volume: 0.745
+    pitch: 1
+    source: {fileID: 0}
+  - name: battle
+    clip: {fileID: 8300000, guid: e2ef6babf0620b4439ee01183c05bdb8, type: 3}
+    loop: 1
+    volume: 0.235
+    pitch: 1
+    source: {fileID: 0}
+  - name: heal
+    clip: {fileID: 8300000, guid: c4b0592a2dc98ec46be7ef6e7f1d202e, type: 3}
+    loop: 0
+    volume: 0.745
+    pitch: 1
+    source: {fileID: 0}
